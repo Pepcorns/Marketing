@@ -54,7 +54,7 @@ export function NavBar() {
   const [state, setState] = React.useState(false);
   return (
     <>
-      <div className="hidden sm:flex w-full p-3 justify-between">
+      <div className="hidden sm:flex p-3 md:px-6 lg:px-12 w-full justify-between">
         <Link href="/">
           <Logo />
         </Link>
